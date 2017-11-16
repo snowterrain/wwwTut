@@ -1,0 +1,120 @@
+            <!--h4 class="border-top"><i class="icon ion-edit"></i> Login</h4>
+            <div class="list">
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">User Name</span>
+                    <input type="text" placeholder="User Name">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">Password</span>
+                    <input type="text" placeholder="Password">
+                </label>
+                <br />
+                <div class="item item-checkbox">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                    </label>
+                    I read the terms &amp; conditions.
+                </div>
+                <br />
+                <button class="button button-block button-calm ink" data-ink-color="#9DEAFF" data-ink-opacity="1">
+                    Submit
+                </button>
+            </div-->
+
+            <!--div class="tabs-striped  tabs-background-positive tabs-color-light">
+    <div class="tabs">
+      <a class="tab-item active" href="#/app/login"><i class="icon ion-unlocked"></i> Login</a>
+      <a class="tab-item" href="#/app/signup"> <i class="icon ion-person"></i> Sing Up </a>
+    </div>
+ </div-->
+
+<!--ion-view view-title="Sign In" class="loginBg" hide-nav-bar="true" >
+
+
+
+
+  <ion-content class="padding"  color="light">
+    <div class="container">
+        <div class="card card-container">
+
+      <div class="col">
+            <div class="app-logo"> <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" /></div> 
+             <p id="profile-name" class="profile-name-card">IAS Institute</p>
+            <div class="list">
+              <label class="item item-input"><input type="text" ng-model="user.username" placeholder="User" > </label>
+              <label class="item item-input"><input type="password" ng-model="user.password" placeholder="Password" > </label>
+            </div>
+
+            <div class="loginButton"><button class="button ion-unlocked button-block button-stable" ng-click="login(user);" > Login </button>  </div>
+      </div>
+  <!--/div-
+
+</div>
+</div>
+
+
+
+  </ion-content>
+</ion-view-->
+
+
+    <!--<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <a href="#" class="navbar-brand">New Co </a>
+            </div>
+            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+    <!--<div class="container">
+        <div class="content">
+            <div class="container">
+                <form role="form" action="/login" method="post" class="form-signin">
+                    <h2 class="form-signin-heading">Please sign in</h2><label for="inputEmail" class="sr-only"></label><input type="text" name="username" id="inputEmail" placeholder="Username" required autofocus class="form-control"><input type="password" name="password" id="inputPassword"
+                        placeholder="Password" class="form-control"><button type="submit" class="btn btn-lg btn-primary btn-block">LOGIN</button></form>
+            </div>
+        </div>
+    </div>-->
+
+
+    <!--
+    you can substitue the span of reauth email for a input with the email and
+    include the remember me checkbox
+    -->
+    <ion-view view-title="Sign In" class="loginBg" hide-nav-bar="true" >
+    <div class="container">
+        <div class="card card-container">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card">IAS Institute</p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="text" id="inputEmail" ng-model="user.username" class="form-control" placeholder="User" name="username" required autofocus>
+                <input type="password" id="inputPassword" ng-model="user.password"  class="form-control" placeholder="Password" name="password" required>
+
+
+
+
+                <!--<div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>-->
+                <button class="btn btn-lg btn-primary btn-block btn-signin" ng-click="login(user);">SIGN IN</button>
+            </form>
+            <!-- /form -->
+            <!--<a href="#" class="forgot-password">
+                Forgot the password?
+            </a>-->
+        </div>
+        <!-- /card-container -->
+    </div>
+
+</ion-view>
+
+

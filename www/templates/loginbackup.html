@@ -1,0 +1,61 @@
+            <!--h4 class="border-top"><i class="icon ion-edit"></i> Login</h4>
+            <div class="list">
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">User Name</span>
+                    <input type="text" placeholder="User Name">
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">Password</span>
+                    <input type="text" placeholder="Password">
+                </label>
+                <br />
+                <div class="item item-checkbox">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                    </label>
+                    I read the terms &amp; conditions.
+                </div>
+                <br />
+                <button class="button button-block button-calm ink" data-ink-color="#9DEAFF" data-ink-opacity="1">
+                    Submit
+                </button>
+            </div-->
+
+            <!--div class="tabs-striped  tabs-background-positive tabs-color-light">
+    <div class="tabs">
+      <a class="tab-item active" href="#/app/login"><i class="icon ion-unlocked"></i> Login</a>
+      <a class="tab-item" href="#/app/signup"> <i class="icon ion-person"></i> Sing Up </a>
+    </div>
+ </div-->
+
+<ion-view view-title="Sign In" class="loginBg" hide-nav-bar="true" >
+
+
+
+
+  <ion-content class="padding"  color="light">
+    <div class="container">
+        <div class="card card-container">
+  <!--div class="row responsive-sm padding remvoeBP car"-->
+      <div class="col">
+            <div class="app-logo"> <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" /></div> 
+             <p id="profile-name" class="profile-name-card">IAS Institute</p>
+            <div class="list">
+              <label class="item item-input"><input type="text" ng-model="user.username" placeholder="User" > </label>
+              <label class="item item-input"><input type="password" ng-model="user.password" placeholder="Password" > </label>
+            </div>
+
+            <div class="loginButton"><button class="button ion-unlocked button-block button-stable" ng-click="login(user);" > Login </button>  </div>
+      </div>
+  <!--/div-->
+
+</div>
+</div>
+
+
+
+  </ion-content>
+</ion-view>
+
+
+
